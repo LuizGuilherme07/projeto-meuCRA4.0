@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import styles from '../styles/agendamento.module.css';
 import BotaoVoltar from '../components/botaoVoltar';
-import Logo from '../components/logo.jsx';
+import Logo from '../components/Logo.jsx';
 import BotaoAgendar from '../components/botaoAgendar';
 
 export default function AgendamentoAcad() {

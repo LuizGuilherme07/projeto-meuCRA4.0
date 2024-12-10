@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import styles from "../styles/financeiro.module.css";
-import LogoMeuCRA from "../components/logo"; 
+import LogoMeuCRA from "../components/Logo"; 
 import FormularioBoleto from "../components/FormularioBoleto";
 import FormularioCra from "../components/FormularioCra";
 import { salvarBoleto } from "../functions/salvarBoleto";  

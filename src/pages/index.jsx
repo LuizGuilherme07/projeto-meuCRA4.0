@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import styles from '../styles/login.module.css';
 import LoginImagem from '../components/loginImagem.jsx';
 import LoginFormulario from '../components/loginFormulario.jsx';
-import Logo from '../components/logo.jsx';
+import Logo from '../components/Logo.jsx';
 
 const Login = () => {
   const router = useRouter();

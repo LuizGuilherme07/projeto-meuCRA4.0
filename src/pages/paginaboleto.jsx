@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import styles from "../styles/paginaboleto.module.css";
 import Logo from "../components/Logo";
-import BotaoVoltar from "../components/BotaoVoltar";
+import BotaoVoltar from "../components/botaoVoltar";
 import { obterBoletosSalvos } from "../functions/boletos"; 
 
 export default function BoletosPage() {

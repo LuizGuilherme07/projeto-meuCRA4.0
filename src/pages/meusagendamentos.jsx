@@ -4,7 +4,7 @@ import styles from '../styles/meusagendamentos.module.css';
 import { obterAgendamentosSalvos } from '../functions/obterAgendamento';
 import ListaAgendamentos from '../components/listaDeAgendamento';
 import BotaoVoltar from '../components/botaoVoltar';
-import Logo from '../components/logo';
+import Logo from '../components/Logo';
 
 export default function MeusAgendamentosPage() {
     const [agendamentos, setAgendamentos] = useState([]);

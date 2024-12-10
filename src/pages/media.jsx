@@ -4,9 +4,9 @@ import styles from '../styles/media.module.css';
 import SelecaoDisciplina from '../components/SelecaoDisciplina';
 import FormularioNotas from '../components/FormularioNotas';
 import Resultado from '../components/Resultado';
-import BotaoVoltar from '../components/BotaoVoltar';
+import BotaoVoltar from '../components/botaoVoltar';
 import { calcularMedia } from '../functions/calcularmedia';
-import Logo from '../components/Logo';  
+import Logo from '../components/Logo.jsx';  
 
 export default function MediaPage() {
   const [nota1, setNota1] = useState('');
